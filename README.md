@@ -51,42 +51,39 @@ CREATE TABLE retail_sales
 ### 3. Data Analysis & Findings
 The project answers important metrics like:
 
-_Total revenue by category
-Total profit (Revenue – COGS)
-Profit margin by category
-Revenue by age group (age buckets created using CASE statements)
-Average spend per customer
-Top spending customers
-Sales by weekday (using EXTRACT & TO_CHAR functions)
-Monthly sales trend
-Peak transaction timing
-Total and average profit by quantity
-Profit margin by quantity
-Analysis of bulk purchasing behavior_
+- Total revenue by category
+- Total profit (Revenue – COGS)
+- Profit margin by category
+- Revenue by age group (age buckets created using CASE statements)
+- Average spend per customer
+- Top spending customers
+- Sales by weekday (using EXTRACT & TO_CHAR functions)
+- Monthly sales trend
+- Peak transaction timing
+- Total and average profit by quantity
+- Profit margin by quantity
+- Analysis of bulk purchasing behavior_
 
 Advanced SQL concepts used
-**CTEs (Common Table Expressions)
-CASE statements
-Aggregate functions
-Date extraction functions
-Correlation analysis
-Data type casting (NUMERIC vs DOUBLE PRECISION)
-Profit margin calculations**
+- **CTEs (Common Table Expressions)**
+- **CASE statements**
+- **Aggregate functions**
+- **Date extraction functions**
+- **Correlation analysis**
+- **Data type casting (NUMERIC vs DOUBLE PRECISION)**
+- **Profit margin calculations**
 
 ## Findings
 
-Higher quantity purchases significantly increase profitability.
-Certain age groups contribute disproportionately to total revenue.
-Specific weekdays generate higher sales volume.**
-Category-level analysis reveals revenue does not always equal high margin.
+- Higher quantity purchases significantly increase profitability.
+- Certain age groups contribute disproportionately to total revenue.
+- Specific weekdays generate higher sales volume.**
+- Category-level analysis reveals revenue does not always equal high margin.
 
 ## Learning Outcomes
 Through this project, I strengthened my ability to:
 
-Translate business questions into SQL queries
-Perform profitability analysis
-Handle PostgreSQL-specific data type challenges
-Structure queries using CTEs for clarity
-
-Think like a business stakeholder, not just a SQL writer
-Thank you for your support, and I look forward to connecting with you!
+- Translate business questions into SQL queries
+- Perform profitability analysis
+- Handle PostgreSQL-specific data type challenges
+- Structure queries using CTEs for clarity
